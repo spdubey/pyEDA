@@ -27,10 +27,10 @@ eda.data_profile(dataframe = data,file_name = 'bsg')
 '''
 #########################
 
-data = pd.read_csv("src\\mult_cat_daily_sales_jun25_format.csv")
+data = pd.read_csv("src\\df.csv")
 print("Data Read")
 # 3- checking the data availability month wise for date-time column
-eda.data_profile(dataframe = data,file_name = 'mult_cat_daily_sales_jun25_format'
+eda.data_profile(dataframe = data,file_name = 'profile'
                  ,date_time_var = 'businessdate', target_variable = 'quantity', col_to_be_excluded = [])
 # Here we can see warnings and in 2018 there is no data after june
 
@@ -41,7 +41,7 @@ eda.data_profile(dataframe = data,file_name = 'mult_cat_daily_sales_jun25_format
 
 #########################
 print("Imported data_profile")
-data = pd.read_csv("pyEDA\\mult_cat_daily_sales_jun25_format.csv")
+data = pd.read_csv("pyEDA\\df.csv")
 print("Data Read")
 # 3- checking the data availability month wise for date-time column
 eda.profile(dataframe = data, date_time_var = ['businessdate', 'businessdate_1'])
