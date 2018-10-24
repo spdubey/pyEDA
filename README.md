@@ -27,19 +27,7 @@ period.
 
 # Getting Started
 ##Installation:
-<b>Option 1 - pip install: </b> To pip install this package from the
-git repository, simply pip install like you would any other package.
-Note that you will use pip or pip3 depending on your default python
-version (on CDSW use pip3). Be sure to install from the Terminal in
-CDSW and to restart your session afterwards.
-
-Example:
-`pip3 install -e git+https://generalmills.visualstudio.com/ACE/_git/pyEDA@version2#egg=pyEDA`
-
-<b>Option 2 - setup.py: </b> Clone the repository to your system and
-use the setup.py to install the package from your terminal.
-
-Example: python setup.py install
+Pull in the code to your local and start using it.
 
 # Usage
 ## Example: Running the Exploratory Data Analysis and generating report.
@@ -74,7 +62,7 @@ from DataProfiling import ExploratoraryDataAnalysis as eda
 data = pd.read_csv("df.csv")
 
 # passing the optional parameters
-eda.data_profile(dataframe = data,file_name = 'mult_cat_daily_sales_jun25_format'
+eda.data_profile(dataframe = data,file_name = 'profile'
                  ,date_time_var = ['businessdate','businessdate_1'], target_variable = 'quantity', col_to_be_excluded = [])
 ```
 <B>Note</B> : The source and target tables in the above example are 
