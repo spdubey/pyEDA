@@ -84,5 +84,10 @@ schema/tables on which you have access to.
 
 
 # Contribute
-I welcome contributions and suggestions for improvements to this package. 
-You can reach out to me at spdubey.abhishek@gmail.com.
+We welcome contributions and suggestions for improvements to this package. 
+If you have access to this repo, feel free to submit a PR. We are working on 
+moving this package to a more accessible location to make this easier.  
+Future version might contain 
+
+Please contact the EDC Data Science Team (GBS DATA SCIENCE DISTLIST)with any 
+questions, concerns, or offers to contribute! 
